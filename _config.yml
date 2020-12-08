@@ -18,16 +18,16 @@ social:
 
 # THEME SETTINGS
 navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
+  - {name: 'Inicio', link: '/'}
+  - {name: 'Acerca de', link: '/about'}
+  - {name: 'Contacto', link: '/contact'}
 
 tagline: >
   Biology student
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
-email: your-email@domain.com # email for form submission
+email: itsmiguelrojas@gmail.com # email for form submission
 
 twitter_username: itsmiguelrojas # replace with your_twitter_username or comment to remove link from footer
 github_username: itsmiguelrojas # replace with your_github_username or comment to remove link from footer
