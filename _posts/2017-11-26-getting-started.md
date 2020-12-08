@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Getting Started with Sleek
+description: Awesome description here!
 featured-img: sleek
 mathjax: true
 image:
