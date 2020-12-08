@@ -27,7 +27,7 @@ tagline: >
 
 # og:image
 image:
-  path: {{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ page.featured-img }}.jpg
+  path: /assets/img/posts/{{ page.featured-img }}.jpg
   height: 100
   width: 100
 
