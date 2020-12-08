@@ -25,6 +25,12 @@ navigation: # Navigation links
 tagline: >
   Estudiante de biología
 
+# og:image
+image:
+  path: {{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ page.featured-img }}.jpg
+  height: 100
+  width: 100
+
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email: # email for form submission
