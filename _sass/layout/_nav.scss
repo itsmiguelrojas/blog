@@ -51,6 +51,10 @@
     .logo {
       fill: currentColor;
     }
+    
+    #Layer_1 {
+      width: 50px;
+    }
   }
 }
 
@@ -193,8 +197,4 @@
       transition: transform .2s ease-in-out;
     }
   }
-}
-
-.header .container .header__inner .header__logo .header__logo--container #Layer_1 {
- width: 50px;
 }
