@@ -3,6 +3,10 @@ layout: post
 title: Getting Started with Sleek
 featured-img: sleek
 mathjax: true
+image:
+  path: assets/img/posts/sleek.jpg
+  height: 100
+  width: 100
 ---
 
 # Getting started
