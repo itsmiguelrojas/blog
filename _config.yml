@@ -12,7 +12,6 @@ url: "https://itsmiguelrojas.github.io" # the base hostname & protocol for your 
 social:
   name: Miguel Rojas
   links:
-    - https://twitter.com/itsmiguelrojas
     - https://github.com/itsmiguelrojas
     - https://instagram.com/itsmiguelrojas
 
@@ -29,7 +28,7 @@ hero_img: posts/leaf_lg.jpg # Main background image: use the path from /assets/i
 
 email: # email for form submission
 
-twitter_username: itsmiguelrojas # replace with your_twitter_username or comment to remove link from footer
+twitter_username: # replace with your_twitter_username or comment to remove link from footer
 github_username: itsmiguelrojas # replace with your_github_username or comment to remove link from footer
 instagram_username: itsmiguelrojas # replace with your_instagram_username or comment to remove link from footer
 
