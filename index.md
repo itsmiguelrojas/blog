@@ -6,4 +6,8 @@
 #
 layout: default
 title: Inicio
+image:
+  path: assets/img/posts/leaf_lg.jpg
+  height: 100
+  width: 100
 ---
