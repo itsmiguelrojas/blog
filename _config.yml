@@ -68,5 +68,5 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
-paginate: 3
+paginate: 9
 paginate-path: "page:num"
