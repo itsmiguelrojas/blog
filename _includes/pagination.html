@@ -1,12 +1,12 @@
 <nav class="pagination">
   <!--<a href="#" class="pagination__item">1</a>-->
   {% if paginator.previous_page %}
-    <a href="/blog{{ paginator.previous_page_path }}" class="previous">&larr; </a>
+    <a href="/blog{{ paginator.previous_page_path }}" class="previous">&larr; &Tab;</a>
   {% endif %}
   <span class="page_number">
     Page: {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="/blog{{ paginator.next_page_path }}" class="next"> &rarr;</a>
+    <a href="/blog{{ paginator.next_page_path }}" class="next">&Tab; &rarr;</a>
   {% endif %}
 </nav>
