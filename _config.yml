@@ -66,6 +66,7 @@ compress_html:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
 paginate: 3
 paginate-path: "/blog/page:num"
