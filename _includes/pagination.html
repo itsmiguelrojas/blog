@@ -1,7 +1,7 @@
 <nav class="pagination">
   <!--<a href="#" class="pagination__item">1</a>-->
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
+    <a href="/blog/{{ paginator.previous_page_path }}" class="previous">
       Previous
     </a>
   {% else %}
@@ -11,7 +11,7 @@
     Page: {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    <a href="/blog/{{ paginator.next_page_path }}" class="next">Next</a>
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
