@@ -2,17 +2,17 @@
   <!--<a href="#" class="pagination__item">1</a>-->
   {% if paginator.previous_page %}
     <a href="/blog{{ paginator.previous_page_path }}" class="previous">
-      Previous
+      &larr;
     </a>
   {% else %}
-    <span class="previous">Previous</span>
+    <span class="previous">Anterior</span>
   {% endif %}
   <span class="page_number ">
     Page: {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="/blog{{ paginator.next_page_path }}" class="next">Next</a>
+    <a href="/blog{{ paginator.next_page_path }}" class="next">&rarr;</a>
   {% else %}
-    <span class="next ">Next</span>
+    <span class="next ">Siguiente</span>
   {% endif %}
 </nav>
