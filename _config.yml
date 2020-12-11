@@ -18,6 +18,7 @@ social:
 # THEME SETTINGS
 navigation: # Navigation links
   - {name: 'Inicio', link: '/'}
+  - {name: 'Categorías', link: '/categories'}
   - {name: 'Acerca de', link: '/about'}
   - {name: 'Contacto', link: '/contact'}
 
