@@ -1,12 +1,20 @@
-<nav class="pagination">
+<ul class="pagination cm-pagination">
   <!--<a href="#" class="pagination__item">1</a>-->
   {% if paginator.previous_page %}
-    <a href="/blog{{ paginator.previous_page_path }}" class="previous">&larr; &Tab;</a>
+    <li class="prev"><a href="/blog{{ paginator.previous_page_path }}" class="previous">&larr; &Tab;</a></li>
   {% endif %}
-  <span class="page_number">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
+  
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <li class ="active">{{ page }}</li>
+    {% elsif page == 1 %}
+      <li><a href="{{ '/' | relative_url }}">{{ page }}</a></li>
+    {% else %}
+      <li><a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a></li>
+    {% endif %}
+  {% endfor %}
+  
   {% if paginator.next_page %}
-    <a href="/blog{{ paginator.next_page_path }}" class="next">&Tab; &rarr;</a>
+    <li class="next"><a href="/blog{{ paginator.next_page_path }}" class="next">&Tab; &rarr;</a></li>
   {% endif %}
-</nav>
+</ul>
